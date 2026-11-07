@@ -293,3 +293,8 @@ for AIopsmlops.com is available in [docs/site-description.md](docs/site-descript
 The OpenAI integration uses the Responses API function-calling loop; the local knowledge retriever is
 replaceable with pgvector or another vector service without changing the agent-facing tool contract.
 
+
+
+## Repository packaging note
+
+The current default branch contains the packaged `continuous-ai-mlops.tar.gz` artifact rather than the expanded source tree. The feature list above describes the packaged application; this repository's CI verifies archive readability only and does not execute the application's tests. Inspect the archive contents and review its deployment permissions before use.
