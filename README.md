@@ -304,3 +304,11 @@ The current default branch contains the packaged `continuous-ai-mlops.tar.gz` ar
 Continuous AI MLOps assistant prototype. Review the packaged source archive and its deployment permissions before treating it as executable or production-ready.
 
 Account-wide ownership and cleanup decisions are maintained in the [WSP portfolio repository catalog](https://github.com/zeiglerit-aiml/WSP_Integrated_AI_SDLC_GVC_pl/blob/main/REPOSITORY_CATALOG.md).
+
+## Portfolio boundary
+
+This repository owns the **MLOps operations assistant** layer: MLflow run/registry context, serving endpoint health, prediction-to-ground-truth quality, Prometheus telemetry, Kubernetes read-only diagnostics, and controlled operator recommendations. Its knowledge base and tools are oriented to ML platform operations.
+
+It is distinct from the proprietary Golden Container Batman & Robin concept, which owns a general task-scoped learning and execution lifecycle (task contract, task-specific knowledge, bounded planning/actions, and validated task learning). Golden Container may integrate selected MLOps capabilities from this repository through explicit, versioned adapters rather than duplicating platform connectors.
+
+It is also distinct from WSP, which owns model artifact intelligence and assurance: architecture-aware weight-space inspection, behavioral/knowledge evaluation, model-change and unlearning evidence, and the canonical WSP workflow contract. This assistant may consume WSP evidence for operator workflows but does not replace WSP checks or GVC policy authority.
