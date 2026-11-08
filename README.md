@@ -298,3 +298,9 @@ replaceable with pgvector or another vector service without changing the agent-f
 ## Repository packaging note
 
 The current default branch contains the packaged `continuous-ai-mlops.tar.gz` artifact rather than the expanded source tree. The feature list above describes the packaged application; this repository's CI verifies archive readability only and does not execute the application's tests. Inspect the archive contents and review its deployment permissions before use.
+
+## Portfolio ownership
+
+Continuous AI MLOps assistant prototype. Review the packaged source archive and its deployment permissions before treating it as executable or production-ready.
+
+Account-wide ownership and cleanup decisions are maintained in the [WSP portfolio repository catalog](https://github.com/zeiglerit-aiml/WSP_Integrated_AI_SDLC_GVC_pl/blob/main/REPOSITORY_CATALOG.md).
